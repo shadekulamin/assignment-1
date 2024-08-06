@@ -21,12 +21,13 @@ button{
     border-radius: 5px;
 }
 .first-section{
-    height: 500px;
+    height: 610px;
     width: 100%;
     background: url(assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 30px;
 }
 .header-container{
     display: flex;
@@ -48,21 +49,195 @@ button{
     letter-spacing: 0%;
     word-spacing: -9px;
     text-align: center;
-    width: 850px;
-    margin-bottom: 10px;
+    width: 800px;
+    margin-bottom: 25px;
 }
 .description{
     color: rgb(13, 19, 33);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
     word-spacing: -2px;
-    width:700px;
-    margin-bottom: 10px;
+    width:800px;
+    margin-bottom: 25px;
 }
 .primary-btn{
+    height: 65px;
+    width: 210px;
     background: rgb(13, 19, 33);
     color: aliceblue;
+    font-size: 20px;
 }
+.btn{
+    height: 45px;
+    width: 145px;
+    font-size: 18px;
+    background: none;
+    border: 1px solid grey;
+    color: rgb(13, 19, 33);
+
+}
+.development-section{
+    margin: 65px auto;
+}
+.development-content{
+    text-align: center;
+    margin: auto;
+}
+.section-tittle{
+    font-size: 30px;
+    font-weight: 600;
+}
+.dev{
+    margin: auto;
+}
+.boxes{
+    height: auto;
+    width: 800px;
+    margin: 50px auto;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,400px)250px;
+    column-gap: 100px;
+    margin-top: 70px;
+}
+.conplict{
+    width: 400px;
+    margin-left: 0px;
+    text-align: start;
+    margin-bottom: 25px;
+}
+.box-tittle{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.content2{
+    margin-left: -140px;
+}
+.video{
+    height: 450px;
+    width: 800px;
+    border: 1px solid grey;
+    margin: 50px auto;
+}
+.targets{
+    margin: 20px auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    justify-content: space-evenly;
+}
+.target{
+    height: 230px;
+    width:230px;
+    text-align: start;
+    padding: 15px;
+    border-radius: 10px;
+    background: beige;
+}
+.target-tittle{
+    margin: 10px 0px;
+    font-size: 30px;
+}
+.target-description{
+    margin: 10px 0px;
+}
+.next-target-section{
+    margin: 40px auto;
+}
+.targets{
+    width: 800px;
+    padding: 15px;
+}
+.next-contents{
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    row-gap: 5px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(221, 212, 212);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.next-target{
+    margin: 50px auto;
+}
+.next-content{
+    margin-bottom: 0px;
+}
+.current-description{
+    margin-bottom: 5px;
+}
+.next-pic{
+    width: 200px;
+}
+.changed{
+    width: 100px;
+}
+.support-bg{
+    background: url(assets/handshake.jpg);
+    background-color:black;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 800px;
+    height: 300px;
+    margin: 0px auto;
+    padding: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.need{
+    font-size: 35px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.need-des{
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.submit{
+        height: 40px;
+        width: 150px;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 10px 0px;
+        width: 800px;
+    }
+    .footer-des{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 18px;
+        font-weight: 500;
+        word-spacing: -8px;
+    }
+    .img-icon{
+        width: 36px;
+        height: 36px;
+    }
